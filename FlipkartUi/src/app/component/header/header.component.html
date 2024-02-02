@@ -1,0 +1,20 @@
+<header>
+    <div class="navbar navbar-dark bg-info shadow-sm">
+         <div class="navbar-brand align-item-center d-flex" routerLink="products">&nbsp;&nbsp;
+           <i style="font-size: 40px;" class="fas fa-shipping-fast">&nbsp;
+           </i>
+           <strong  style="font-size: 30px;  cursor: pointer;">Apnakart</strong>
+
+           <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search Prodoucts">
+           </div>
+
+           <span style="color: rgb(20, 207, 207);" class="fas fa-search search-icon"></span>
+         </div>
+
+         <button routerLink="cart" class="btn btn-info">
+          <i style="font-size: 30px; color:white;" class="fas fa-cart-plus"></i>
+          <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+         </button>
+    </div>
+</header>
